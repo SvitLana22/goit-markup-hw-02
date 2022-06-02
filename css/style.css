@@ -2,10 +2,27 @@
 --accent-color: #2196F3;
 --title-color: #212121;
 }
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+ul{
+    margin: o;
+    padding-left: 0;
+}
+button{
+    cursor: pointer;
+}
 body {
-background:#FFFFFF;
+
+/*background:#FFFFFF;*/
 color: #757575;
 font-family: "Roboto", sans-serif ;
+}
+a{
+    color: currentColor;
+}
+address{
+    font-style: normal;
 }
 .list {
     list-style: none;
@@ -64,8 +81,10 @@ font-family: "Roboto", sans-serif ;
     color: var(--accent-color);
 }
 /* ----------HERO------------*/
-.hero-title {
+.hero {
     background: #2F303A;
+}
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -117,6 +136,12 @@ font-family: "Roboto", sans-serif ;
 /* -----------WORK----------*/
 
 /* -----------TEAM-----------*/
+.team {
+    background: #F5F4FA;
+}
+.team-item {
+    background: #FFFFFF;
+}
 .team-top-text {
     font-weight: 500;
     font-size: 16px;
@@ -135,7 +160,8 @@ font-family: "Roboto", sans-serif ;
 }
 /* -----------FOOTER-----------*/
 .footer {
-    background-color: #757575;}
+    background-color: #2F303A;
+}
 .footer-logo {
     color: #ffffff;
 }
