@@ -153,6 +153,7 @@ font-family: "Roboto", sans-serif ;
 }
 .address {
     font-style: normal;
+    
 }
 .address-map {
     font-family: 'Roboto';
@@ -184,8 +185,6 @@ font-family: "Roboto", sans-serif ;
 .address-tel:hover,
 .address-tel:focus {
     color: var(--accent-color);
-}
-
 }
 /* ------------PORTFOLIO-------*/
 .filter-btn {
